@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+// NOTE Custom Styles
+
+.section {
+  padding: 1.5rem;
+}
+
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+// NOTE Fixed Some Style
+// Fix Dropdown Navigation on mobile
+@include mobile {
+  .navbar-item {
+    &.has-dropdown {
+      .navbar-dropdown {
+        display: none;
+      }
+
+      &.is-hoverable:hover {
+        .navbar-dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+}

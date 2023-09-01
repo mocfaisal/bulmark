@@ -1,0 +1,17 @@
+{
+  "name": "bulmak",
+  "version": "0.0.1",
+  "description": "Marketplace template build with Bulma CSS",
+  "main": "dist/css/app.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url dist/css/app.scss dist/css/app.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "mocfaisal",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  }
+}
