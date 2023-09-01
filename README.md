@@ -8,7 +8,7 @@ Marketplace template build with Bulma CSS
 
 1. Clone the project
 ```sh
-  git clone https://link-to-project
+  git clone https://github.com/mocfaisal/bulmark.git
 ```
 
 2. Install dependencies
@@ -39,16 +39,3 @@ BulMark
 ## Authors
 
 BulMark is created by [mocfaisal](https://github.com/mocfaisal)
-
-```
-bulma1
-├─ dist
-│  └─ css
-│     ├─ app.css
-│     └─ app.scss
-├─ index.html
-├─ package-lock.json
-├─ package.json
-└─ README.md
-
-```
