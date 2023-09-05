@@ -2,12 +2,14 @@
   "name": "bulmak",
   "version": "0.0.1",
   "description": "Marketplace template build with Bulma CSS",
-  "main": "dist/css/app.scss",
+  "main": "src/assets/scss/app.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url dist/css/app.scss dist/css/app.css",
+    "css-build": "node-sass --omit-source-map-url src/assets/scss/app.scss dist/css/app.css --output-style compressed",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
-  },
+    "start": "npm run css-watch",
+    "css-compile": "sass src/assets/scss/app.scss dist/css/app.css --style=compressed",
+    "sass-build" : "bash ./bin/scss-compile.sh"
+    },
   "author": "mocfaisal",
   "license": "MIT",
   "devDependencies": {

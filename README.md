@@ -21,21 +21,6 @@ Marketplace template build with Bulma CSS
   npm run start
 ```
 
-## Structure
-```
-BulMark
-├─ dist
-│  └─ css
-│     ├─ app.css
-│     └─ app.scss
-├─ index.html
-├─ package-lock.json
-├─ package.json
-└─ README.md
-
-```
-
-
 ## Authors
 
 BulMark is created by [mocfaisal](https://github.com/mocfaisal)
