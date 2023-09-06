@@ -1,53 +1,4 @@
 @charset "UTF-8";
-.section {
-  padding: 1.5rem;
-}
-
-.footer {
-  padding: 3rem 1.5rem;
-}
-
-.carousel,
-.hero-carousel {
-  overflow: hidden;
-}
-
-.line-clamp {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.line-clamp.is-line-clamp-1 {
-  -webkit-line-clamp: 1;
-}
-.line-clamp.is-line-clamp-2 {
-  -webkit-line-clamp: 2;
-}
-.line-clamp.is-line-clamp-3 {
-  -webkit-line-clamp: 3;
-}
-.line-clamp.is-line-clamp-4 {
-  -webkit-line-clamp: 4;
-}
-.line-clamp.is-line-clamp-5 {
-  -webkit-line-clamp: 5;
-}
-.line-clamp.is-line-clamp-6 {
-  -webkit-line-clamp: 6;
-}
-.line-clamp.is-line-clamp-7 {
-  -webkit-line-clamp: 7;
-}
-.line-clamp.is-line-clamp-8 {
-  -webkit-line-clamp: 8;
-}
-.line-clamp.is-line-clamp-9 {
-  -webkit-line-clamp: 9;
-}
-.line-clamp.is-line-clamp-10 {
-  -webkit-line-clamp: 10;
-}
-
 /*! bulma.io v0.9.4 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
@@ -10519,6 +10470,55 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.section {
+  padding: 1.5rem;
+}
+
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+.carousel,
+.hero-carousel {
+  overflow: hidden;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.is-line-clamp-1 {
+  -webkit-line-clamp: 1;
+}
+.line-clamp.is-line-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+.line-clamp.is-line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+.line-clamp.is-line-clamp-4 {
+  -webkit-line-clamp: 4;
+}
+.line-clamp.is-line-clamp-5 {
+  -webkit-line-clamp: 5;
+}
+.line-clamp.is-line-clamp-6 {
+  -webkit-line-clamp: 6;
+}
+.line-clamp.is-line-clamp-7 {
+  -webkit-line-clamp: 7;
+}
+.line-clamp.is-line-clamp-8 {
+  -webkit-line-clamp: 8;
+}
+.line-clamp.is-line-clamp-9 {
+  -webkit-line-clamp: 9;
+}
+.line-clamp.is-line-clamp-10 {
+  -webkit-line-clamp: 10;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -8,31 +8,6 @@
 $primary: #f48603;
 
 
-.section {
-  padding: 1.5rem;
-}
-
-.footer {
-  padding: 3rem 1.5rem;
-}
-
-// Fix Carousel Container
-.carousel,
-.hero-carousel {
-  overflow: hidden;
-}
-
-.line-clamp {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  @for $i from 1 through 10 {
-    &.is-line-clamp-#{$i} {
-      -webkit-line-clamp: $i;
-    }
-  }
-}
-
 // Rest of Bulma
 @import "../../../node_modules/bulma/bulma.sass";
 // @import "../../../node_modules/bulma/sass/base/_all.sass";
@@ -89,3 +64,30 @@ $primary: #f48603;
 }
 
 $box-shadow: 0 0.5em 0.2em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+
+
+// NOTE Custom Styles
+.section {
+  padding: 1.5rem;
+}
+
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+// Fix Carousel Container
+.carousel,
+.hero-carousel {
+  overflow: hidden;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  @for $i from 1 through 10 {
+    &.is-line-clamp-#{$i} {
+      -webkit-line-clamp: $i;
+    }
+  }
+}
