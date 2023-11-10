@@ -18,7 +18,7 @@ Marketplace template build with Bulma CSS
 
 3. Compile Template CSS
 ```sh
-  npm run start
+  npm run build
 ```
 
 ## Authors
